@@ -1,0 +1,48 @@
+/* By default al HTML tags have their own spacing 
+ First reset it 
+ 
+ h1 h2 h3 h4 h5 h6 p div {
+    margin: 0;
+    padding: 0;
+}
+or
+
+ */
+
+ 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box1{
+    background-color: lightcoral;
+    margin: 20px 20px 20px 20px;     /* Top Right Bottom Left*/
+    padding: 20px 20px 20px 20px;
+}
+.box2{
+    background-color: lightskyblue;
+    margin: 20px 30px;      /* Top-Bottom Right-Left*/
+    padding: 20px 20px;
+}
+.box3{
+    background-color: lightseagreen;
+    margin: 20px 30px 30px;     /* margin along with padding will not collapse */
+    padding: 20px 0 20px;
+}
+.box4{
+    background-color: lightsteelblue;
+    margin: 20px;
+    padding: 20px;
+}
+.box5{
+    background-color: lightpink;
+    width: 200px;
+    padding: 20px;
+    margin: 20px auto;      /* auto for aligning to anti-left or anti-right only */
+}
+.header-1{
+    font-family: Verdana ;
+    text-align: center;
+    color: darkolivegreen;
+}

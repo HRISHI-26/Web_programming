@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 500px;
+    margin: 0 auto;
+    padding: 140px 0;
+}
+.wrapper  h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.wrapper  h4{
+    margin: 8px 0 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+.wrapper p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+}
+.img-class{
+    width: 500px;
+    height: 400px;
+}
+.wrapper img{
+    width: 500px;
+    height: 400px;
+}
+.container{
+    background-color: rgb(186, 222, 251);
+}
+.content-box{
+    background-color: white;
+    padding: 20px;
+}
