@@ -1,0 +1,21 @@
+#header{
+    background-color: palegreen;
+    height: 20%;
+    font-family: Arial;
+    font-size: 20px;
+    text-align: right;
+}
+
+#header a{
+    color: grey;
+}
+
+.heading-1{
+    font-family:Verdana ;
+    letter-spacing: 3px;
+    color: lightslategray;
+    text-align: center;
+    border: 2px solid gray;
+}
+
+
