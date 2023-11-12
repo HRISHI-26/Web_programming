@@ -1,0 +1,77 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    padding-left: 15px ;
+    padding-right: 15px ;
+    margin: 0 auto ;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .navbar {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+    display: flex;
+}
+header .navbar a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    font-size: 25px;
+    font-family: Arial;
+}
+
+.hero-section img{
+    width: 100%;
+}
+.hero-section {
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+}
+.hero-section .hero-section-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    max-width: 500px;
+    background-color: white;
+    padding: 30px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-section .hero-section-content h1 {
+    margin-bottom: 20px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.gallery-section h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.gallery-section .gallery-list{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.gallery-section .gallery-list li{
+    flex: 1 1 200px;
+}
+.gallery-section .gallery-list li{
+    width: 100%;
+}

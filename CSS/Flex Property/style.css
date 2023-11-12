@@ -1,0 +1,66 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+Flex Attributes
+
+display:flex, flex-direction, flex-wrap, flex, order, justify-content,
+align-items, align-content(parent), align-self(child), flex-grow 
+*/
+
+.parent {
+    height: 100vh;
+    border: 20px solid gray;
+    display: flex;/* use flex-direction = row or column */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.parent-column {
+    height: 100vh;
+    border: 20px solid gray;
+    display: flex;/* use flex-direction = row or column */
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.parent-wrap {
+    height: 100vh;
+    border: 20px solid gray;
+    display: flex;/* use flex-direction = row or column */
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+/* flex-flow : column wrap | row wrap */
+
+.child1 {
+    background-color: hotpink;
+    width: 200px;
+    height: 200px;
+    order: 1;       /* used with flex  only for child*/
+}
+.child2 {
+    background-color: lightseagreen;
+    width: 200px;
+    height: 200px;
+    order: 4;      /* used with flex  only for child*/
+    flex-grow: 1;
+}
+.child3 {
+    background-color: skyblue;
+    width: 200px;
+    height: 200px;
+    order: 3;       /* used with flex  only for child*/
+}
+.child4 {
+    background-color: lightgreen;
+    width: 200px;
+    height: 200px;
+    order: 2;       /* used with flex  only for child*/
+}
+
